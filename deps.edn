@@ -2,7 +2,10 @@
 
  :deps    {com.taoensso/timbre {:mvn/version "4.10.0"}
            org.clojure/clojure {:mvn/version "1.10.1"}
-           expound             {:mvn/version "0.8.4"}}
+           ;expound             {:mvn/version "0.8.4"}}
+           expound/expound     {:local/root "../expound"}}
+           ; expound/expound      {:git/url "git@github.com:fluent-development/expound.git"
+           ;                       :sha "81015c38fb073c14c270818b3af8d90c211276f8"}}
 
  :aliases {:test      {:extra-paths ["src/test"]
                        :extra-deps  {fulcrologic/fulcro-spec {:mvn/version "3.1.4"}}}
@@ -16,4 +19,3 @@
                                      org.clojure/tools.nrepl     {:mvn/version "0.2.13"}
                                      binaryage/devtools          {:mvn/version "1.0.0"}
                                      org.clojure/tools.namespace {:mvn/version "0.3.1"}}}}}
-
