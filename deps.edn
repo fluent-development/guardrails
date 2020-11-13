@@ -3,9 +3,9 @@
  :deps    {com.taoensso/timbre {:mvn/version "4.10.0"}
            org.clojure/clojure {:mvn/version "1.10.1"}
            ;expound             {:mvn/version "0.8.4"}}
-           expound/expound     {:local/root "../expound"}}
-           ; expound/expound      {:git/url "git@github.com:fluent-development/expound.git"
-           ;                       :sha "81015c38fb073c14c270818b3af8d90c211276f8"}}
+           ; expound/expound     {:local/root "../expound"}}
+           expound/expound     {:git/url "git@github.com:fluent-development/expound.git"
+                                :sha "76776d6eeb076ce5cbb65c9017bc293607a90c93"}}
 
  :aliases {:test      {:extra-paths ["src/test"]
                        :extra-deps  {fulcrologic/fulcro-spec {:mvn/version "3.1.4"}}}
