@@ -4,8 +4,8 @@
            org.clojure/clojure {:mvn/version "1.10.1"}
            ;expound             {:mvn/version "0.8.4"}}
            ; expound/expound     {:local/root "../expound"}}
-           expound/expound     {:git/url "git@github.com:fluent-development/expound.git"
-                                :sha "76776d6eeb076ce5cbb65c9017bc293607a90c93"}}
+           expound/expound     {:git/url "git@github.com:bhb/expound.git"
+                                :sha "bdccedc96c65e0d104e6139121a501453007f398"}}
 
  :aliases {:test      {:extra-paths ["src/test"]
                        :extra-deps  {fulcrologic/fulcro-spec {:mvn/version "3.1.4"}}}
